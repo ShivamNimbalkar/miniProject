@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-08-15" view-index="0" gantt-divider-location="409" resource-divider-location="300" version="2.8.11" locale="en_US">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="175" order="0"/>
+        <field id="tpd4" name="Begin date" width="115" order="1"/>
+        <field id="tpd5" name="End date" width="115" order="2"/>
+        <option id="color.recent"><![CDATA[#00ffff #33ffff #ff00ff #ff0000 #ffff00 #ffff66 #00ff00 #33ff00 #00ffcc #33ffcc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Preparatory Phase" color="#0000ff" meeting="false" project="true" start="2021-08-25" duration="16" complete="0" thirdDate="2021-09-17" thirdDate-constraint="0" expand="true">
+            <task id="3" name="Literature Survey" color="#0000ff" meeting="false" start="2021-08-25" duration="5" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Writing Project Proposal" color="#0000ff" meeting="false" start="2021-08-31" duration="5" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Experimental Setup and Installation" color="#0000ff" meeting="false" start="2021-09-07" duration="7" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="10" name="Design Front Web Page" color="#ff0033" meeting="false" start="2021-09-16" duration="14" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true">
+            <task id="14" name="Design UI" color="#ff0033" meeting="false" start="2021-09-16" duration="6" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="31" name="Addition of menu" color="#ff0033" meeting="false" start="2021-09-24" duration="8" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="UI Created" color="#ff0033" meeting="true" start="2021-10-05" duration="0" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="42" name="Database Creation" color="#00ff33" meeting="false" start="2021-10-06" duration="15" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true">
+            <task id="44" name="Create Database" color="#00ff33" meeting="false" start="2021-10-06" duration="6" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="93" name="Database Created" color="#00ff00" meeting="true" start="2021-10-13" duration="0" complete="0" thirdDate="2021-08-23" thirdDate-constraint="0" expand="true"/>
+            <task id="46" name="Connect Payment information to database" color="#00ff33" meeting="false" start="2021-10-14" duration="6" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="48" name="Add menu and Order information to database" color="#00ff33" meeting="false" start="2021-10-22" duration="3" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="117" name="Form Creation" color="#33ffff" meeting="false" start="2021-10-27" duration="4" complete="0" thirdDate="2021-10-27" thirdDate-constraint="0" expand="true">
+            <task id="118" name="Design registration form for users" color="#33ffff" meeting="false" start="2021-10-27" duration="2" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="119" name="Design login page for user" color="#00ffff" meeting="false" start="2021-10-28" duration="2" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true"/>
+            <task id="120" name="Design form for receiving food order" color="#33ffff" meeting="false" start="2021-10-29" duration="2" complete="0" thirdDate="2021-08-23" thirdDate-constraint="0" expand="true"/>
+            <task id="121" name="Form Created" color="#00ffff" meeting="true" start="2021-11-01" duration="0" complete="0" thirdDate="2021-08-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="98" name="Database Connectivity" color="#ffff00" meeting="false" start="2021-11-02" duration="3" complete="0" thirdDate="2021-11-02" thirdDate-constraint="0" expand="true">
+            <task id="100" name="Establish Connection between UI and Database" color="#ffff00" meeting="false" start="2021-11-02" duration="3" complete="0" thirdDate="2021-08-23" thirdDate-constraint="0" expand="true"/>
+            <task id="107" name="Connection Established" color="#ffff00" meeting="true" start="2021-11-04" duration="0" complete="0" thirdDate="2021-08-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="52" name="Testing" color="#ff00ff" meeting="false" start="2021-11-05" duration="2" complete="0" thirdDate="2021-07-29" thirdDate-constraint="0" expand="true">
+            <task id="55" name="Testing the Developed Functionalities" color="#ff00ff" meeting="false" start="2021-11-05" duration="2" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="116" name="Testing" color="#ff00ff" meeting="true" start="2021-11-08" duration="0" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="61" name="Documentation" color="#00ffcc" meeting="false" start="2021-11-08" duration="8" complete="0" thirdDate="2021-08-18" thirdDate-constraint="0" expand="true">
+            <task id="66" name="Report Writing" color="#00ffcc" meeting="false" start="2021-11-08" duration="5" complete="0" thirdDate="2021-08-26" thirdDate-constraint="0" expand="true"/>
+            <task id="68" name="Preparing the Publications" color="#00ffcc" meeting="false" start="2021-11-12" duration="4" complete="0" thirdDate="2021-08-26" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
